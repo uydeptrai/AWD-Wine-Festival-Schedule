@@ -1,0 +1,44 @@
+:root{
+    --font-color: #8c6b48;
+    --font-background: #242f44;
+    --font-p: white;
+}
+
+h1{
+    color: var(--font-color);
+    background-color: var(--font-p);
+}
+td,h3,th{
+    color: var(--font-p);
+}
+table{
+    background-color: var(--font-background);
+    
+
+}
+body{
+    background-color: #242f44;
+}
+
+.table td, .table th {
+    border: 2px solid #8c6b48;
+    height: 30%;
+}
+tr,td,th{
+    border: 2px solid #8c6b48;
+    height: 90px;
+    font-size: larger;
+}
+footer h3 {
+    display: inline-block;
+    font-size: 14px;   
+    padding: 30px; 
+    text-transform: uppercase;
+}
+footer {
+    margin-top: 50px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 5px;
+}
